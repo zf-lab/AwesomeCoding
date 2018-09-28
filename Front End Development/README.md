@@ -10,7 +10,7 @@ Front End Development
 
 学习进度:
 
-* *HTML5 and CSS  done
+* HTML5 and CSS  done
 * [Responsive Design With Bootstrap](https://www.freecodecamp.cn/challenges/use-responsive-design-with-bootstrap-fluid-containers)
 * Gear up for Success
 * jQuery
@@ -20,4 +20,4 @@ Front End Development
 * Basic Algorithm Scripting
 * ...
 
-[freeCodeCamp](https://www.freecodecamp.cn/home)*
+[freeCodeCamp](https://www.freecodecamp.cn/home)
