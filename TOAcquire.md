@@ -14,11 +14,16 @@
 
 [2] 后端开发-PHP方向
 
-技术支持 强大的业务分析能力
+技术能力：
 
-招聘要求：
+框架laravel Yii thinkphp
 
-框架laravel Yii thinkphp 框架优劣
+[laravel](https://www.golaravel.com/)
+-----------
+  Laravel 优点：TODO
+  学习路径：[安装与配置](https://docs.golaravel.com/docs/4.2/quick/#installation)->路由->请求与输入->视图与响应->控制器->配置数据库->查询构造器->Eloquent ORM->身份验证
+  
+  安装4.2: composer create-project laravel/laravel=4.2 laravelTest --prefer-dist
 
 数据库 memberCache/redis 缓存技术
 
