@@ -21,11 +21,20 @@
 [laravel](https://www.golaravel.com/)
 -----------
   Laravel 优点：TODO
+  
   学习路径：[安装与配置](https://docs.golaravel.com/docs/4.2/quick/#installation)->路由->请求与输入->视图与响应->控制器->配置数据库->查询构造器->Eloquent ORM->身份验证
   
-  拓展阅读：[Nginx学习文档](http://www.nginx.cn/doc/)
+  1、安装配置
   
   安装4.2: composer create-project laravel/laravel=4.2 laravelTest --prefer-dist
+  配置：app/conf app.php key（32位）debug（true便于调试 线上配置为false）nginx.conf 为啥没用呢？ 配置 try_files $uri $uri/ /index.php?$query_string; 服务器指向路径为/public(内含index.php)
+  
+  拓展阅读：[Nginx学习文档](http://www.nginx.cn/doc/) 
+  
+  拓展关键字：负载均衡 虚拟机
+
+TODO
+--
 
 数据库 memberCache/redis 缓存技术
 
