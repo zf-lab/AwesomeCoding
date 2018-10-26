@@ -23,6 +23,8 @@
   Laravel 优点：TODO
   学习路径：[安装与配置](https://docs.golaravel.com/docs/4.2/quick/#installation)->路由->请求与输入->视图与响应->控制器->配置数据库->查询构造器->Eloquent ORM->身份验证
   
+  拓展阅读：[Nginx学习文档](http://www.nginx.cn/doc/)
+  
   安装4.2: composer create-project laravel/laravel=4.2 laravelTest --prefer-dist
 
 数据库 memberCache/redis 缓存技术
@@ -37,7 +39,7 @@ NoSQL相关技术 索引/查询/存储 优化
 
 SSH Linux命令行
 
-服务器 选择apache Nginx Tomcat部署
+服务器 选择apache Nginx Tomcat部署 反向代理和负载均衡 静态html
 
 scorm标准 Linux环境开发
 
