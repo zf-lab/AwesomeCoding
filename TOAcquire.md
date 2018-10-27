@@ -12,7 +12,7 @@
 
   1、图片使用slicing 拉伸时 注意图片的尺寸大小 view的size<picture的size时死活没拉伸效果，[设置CapWidth CapHeight CapInsets resizingMode](https://www.jianshu.com/p/0038823122dc),据说button的image要代码设置。
   
-  2、popView的分装添加 offsetSep（github上传）
+  2、popView的封装添加 offsetSep（todo github上传）
 
 增强 辅助 用户体验
 
@@ -62,8 +62,6 @@ scorm标准 Linux环境开发
 
 高并发 多线程
 
-数据结构和算法
-
 数据分析/数据挖掘
 
 设计模式
@@ -87,3 +85,12 @@ scorm标准 Linux环境开发
 [4] 大数据
 
 数据方向 数据分析 更好的规划
+
+[5] [leetcode](https://leetcode-cn.com/problemset/all/)
+
+数据结构和算法
+---
+
+复杂度分析
+
+
