@@ -54,7 +54,7 @@
   
   请求的生命周期
   
-  [IoC 容器] (https://docs.golaravel.com/docs/4.2/ioc/)
+  [IoC 容器](https://docs.golaravel.com/docs/4.2/ioc/)
   
   设计模式-控制反转：Class A中用到了Class B的对象b，一般情况下，需要在A的代码中显式的new一个B的对象。
 采用依赖注入技术之后，A的代码只需要定义一个私有的B对象，不需要直接new来获得这个对象，而是通过相关的容器控制程序来将B对象在外部new出来并注入到A类里的引用中。而具体获取的方法、对象被获取时的状态由配置文件（如XML）来指定。
