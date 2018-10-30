@@ -56,12 +56,11 @@
   
   [IoC 容器](https://docs.golaravel.com/docs/4.2/ioc/)
   
-  设计模式-控制反转：Class A中用到了Class B的对象b，一般情况下，需要在A的代码中显式的new一个B的对象。
-采用依赖注入技术之后，A的代码只需要定义一个私有的B对象，不需要直接new来获得这个对象，而是通过相关的容器控制程序来将B对象在外部new出来并注入到A类里的引用中。而具体获取的方法、对象被获取时的状态由配置文件（如XML）来指定。
+  设计模式-控制反转 
   
   拓展阅读：[Nginx学习文档](http://www.nginx.cn/doc/)  Apache .htaccess
   
-  拓展关键字：控制反转 负载均衡 虚拟机
+  拓展关键字：[控制反转](https://baike.baidu.com/item/%E6%8E%A7%E5%88%B6%E5%8F%8D%E8%BD%AC/1158025?fr=aladdin#3) XML Java 反射机制 负载均衡 虚拟机
 
 TODO
 --
