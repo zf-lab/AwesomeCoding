@@ -54,7 +54,9 @@
   
   请求的生命周期
   
-  [IoC 容器](https://docs.golaravel.com/docs/4.2/ioc/)
+  [IoC 容器](https://docs.golaravel.com/docs/4.2/ioc/) 
+  
+  解决相互依赖的方法：闭包回调和自动解析 绑定和注册（单例和已存在实例绑定到容器） 注册服务提供器 ?(服务器用来干什么的)? 容器事件监听
   
   设计模式-控制反转 
   
