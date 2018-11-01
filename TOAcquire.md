@@ -30,9 +30,9 @@
 -----------
   Laravel 简洁优雅的PHP开发框架
   
-  学习路径：[安装与配置](#安装配置)->[路由](#路由)->请求与输入->视图与响应->控制器->配置数据库->查询构造器->Eloquent ORM->身份验证
+  [学习路径](https://docs.golaravel.com/docs/4.2/introduction/#where-to-start)：[安装与配置](#安装配置)->[路由](#路由)->[请求与输入](#请求与输入)->视图与响应->控制器->配置数据库->查询构造器->Eloquent ORM->身份验证
   
-  ## [安装配置](https://docs.golaravel.com/docs/4.2/quick/#installation)
+  ### [安装配置](https://docs.golaravel.com/docs/4.2/quick/#installation)
   
   安装4.2:
   
@@ -44,21 +44,39 @@
   
   服务器指向路径为/public(内含index.php)
   
-  ## [路由](https://docs.golaravel.com/docs/4.2/routing/#route-filters)
+  ### [路由](https://docs.golaravel.com/docs/4.2/routing/#route-filters)
   
   基本路由 路由参数 路由过滤器 命名路由 路由组 子域名路由 路由前缀 路由与模型绑定 抛出404错误 控制器路由
   
-  ## 请求与输入
+  ### [请求与输入](https://docs.golaravel.com/docs/4.2/requests/)
   
-  运行方式的概述：
+  #### [IoC 容器](https://docs.golaravel.com/docs/4.2/ioc/) ：设计模式-控制反转
   
-  请求的生命周期
+  > 解决相互依赖的方法： 闭包回调和自动解析 绑定和注册（单例和已存在实例绑定到容器）
   
-  [IoC 容器](https://docs.golaravel.com/docs/4.2/ioc/) 
+  > 注册服务提供器-服务提供器可以注册事件监听器、视图合成器、Artisan命令等等?(服务器用来干什么的)? 
   
-  解决相互依赖的方法：闭包回调和自动解析 绑定和注册（单例和已存在实例绑定到容器） 注册服务提供器 ?(服务器用来干什么的)? 容器事件监听
+  > 容器事件监听 
   
-  设计模式-控制反转 
+  #### [请求的生命周期](https://docs.golaravel.com/docs/4.2/lifecycle/#request-lifecycle)：
+  
+  * 1、客户端请求发送，经网络传输到达服务器处理 传递给index.php文件
+  
+  * 2、bootstrap/start.php文件创建应用程序application对象并检测环境 
+  
+  * 3、内部的framework/start.php文件 会配置相关设置并加载服务提供器
+  
+  * 4、加载应用程序app/start目录下的文件 配置环境参数
+  
+  * 5、加载app/routes.php文件
+  
+  * 6、将Request对象发送给应用程序对象，经处理返回Response对象
+  
+  * 7、将Response对象发送给客户端
+  
+  #### [请求与输入](https://docs.golaravel.com/docs/4.2/requests/)
+  
+  
   
   拓展阅读：[Nginx学习文档](http://www.nginx.cn/doc/)  Apache .htaccess
   
