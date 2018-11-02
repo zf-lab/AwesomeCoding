@@ -4,21 +4,23 @@ The Compass
 
 > 概念学习  最小化学习路径
 
-## [移动开发-iOS方向](https://github.com/FLYKingdom/MyCode/blob/master/%E7%A7%BB%E5%8A%A8%E7%AB%AF/iOS.md)
 
-  Something over here
+
+## 移动开发-iOS方向
+
+  Something over here！[iOS](https://github.com/FLYKingdom/MyCode/blob/master/%E7%A7%BB%E5%8A%A8%E7%AB%AF/iOS.md)
 
 ## 后端开发-PHP方向
 
 开发框架：框架laravel Yii thinkphp
 
-[laravel](https://www.golaravel.com/)
------------
+### [laravel](https://www.golaravel.com/)
+
   Laravel 简洁优雅的PHP开发框架
   
   [学习路径](https://docs.golaravel.com/docs/4.2/introduction/#where-to-start)：[安装与配置](#安装配置)->[路由](#路由)->[请求与输入](#请求与输入)->视图与响应->控制器->配置数据库->查询构造器->Eloquent ORM->身份验证
   
-  ### [安装配置](https://docs.golaravel.com/docs/4.2/quick/#installation)
+  #### [安装配置](https://docs.golaravel.com/docs/4.2/quick/#installation)
   
   安装4.2:
   
@@ -30,13 +32,13 @@ The Compass
   
   服务器指向路径为/public(内含index.php)
   
-  ### [路由](https://docs.golaravel.com/docs/4.2/routing/#route-filters)
+  #### [路由](https://docs.golaravel.com/docs/4.2/routing/#route-filters)
   
   基本路由 路由参数 路由过滤器 命名路由 路由组 子域名路由 路由前缀 路由与模型绑定 抛出404错误 控制器路由
   
-  ### [请求与输入](https://docs.golaravel.com/docs/4.2/requests/)
+  #### [请求与输入](https://docs.golaravel.com/docs/4.2/requests/)
   
-  #### [IoC 容器](https://docs.golaravel.com/docs/4.2/ioc/) ：设计模式-控制反转
+  ##### [IoC 容器](https://docs.golaravel.com/docs/4.2/ioc/) ：设计模式-控制反转
   
   > 解决相互依赖的方法： 闭包回调和自动解析 绑定和注册（单例和已存在实例绑定到容器）
   
@@ -44,7 +46,7 @@ The Compass
   
   > 容器事件监听 
   
-  #### [请求的生命周期](https://docs.golaravel.com/docs/4.2/lifecycle/#request-lifecycle)：
+  ##### [请求的生命周期](https://docs.golaravel.com/docs/4.2/lifecycle/#request-lifecycle)：
   
   * 1、客户端请求发送，经网络传输到达服务器处理 传递给index.php文件
   
@@ -60,16 +62,13 @@ The Compass
   
   * 7、将Response对象发送给客户端
   
-  #### [请求与输入](https://docs.golaravel.com/docs/4.2/requests/)
+  ##### [请求与输入](https://docs.golaravel.com/docs/4.2/requests/)
   
   
   
   拓展阅读：[Nginx学习文档](http://www.nginx.cn/doc/)  Apache .htaccess
   
   拓展关键字：[控制反转](https://baike.baidu.com/item/%E6%8E%A7%E5%88%B6%E5%8F%8D%E8%BD%AC/1158025?fr=aladdin#3) XML Java 反射机制 负载均衡 虚拟机
-
-TODO
---
 
 数据库 memberCache/redis 缓存技术
 
