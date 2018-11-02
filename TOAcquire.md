@@ -4,8 +4,6 @@ The Compass
 
 > 概念学习  最小化学习路径
 
-
-
 ## 移动开发-iOS方向
 
   Something over here！[iOS](https://github.com/FLYKingdom/MyCode/blob/master/%E7%A7%BB%E5%8A%A8%E7%AB%AF/iOS.md)
@@ -104,19 +102,19 @@ scorm标准 Linux环境开发
 
 相关语言：golang（go）python
 
-### 后端开发-Java方向
+## 后端开发-Java方向
 
 项目经理 架构师 CTO 
 
-### 大数据
+## 大数据
 
 数据方向 数据分析 更好的规划
 
-### 数据结构和算法
+## 数据结构和算法
 
 复杂度分析
 
-### 其他 
+## 其他 
 
 [leetcode](https://leetcode-cn.com/problemset/all/)
 
