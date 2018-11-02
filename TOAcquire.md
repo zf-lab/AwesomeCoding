@@ -1,30 +1,16 @@
-规划- 目标
+
+The Compass
 =======
 
-技术方向
------------
+> 概念学习  最小化学习路径
 
-### 概念学习  最小化学习路径
+## [移动开发-iOS方向](https://github.com/FLYKingdom/MyCode/blob/master/%E7%A7%BB%E5%8A%A8%E7%AB%AF/iOS.md)
 
-[1] 移动开发-iOS方向 
+  Something over here
 
-遇到的坑-注意啦
+## 后端开发-PHP方向
 
-  1、图片使用slicing 拉伸时 注意图片的尺寸大小 view的size<picture的size时死活没拉伸效果，[设置CapWidth CapHeight CapInsets resizingMode](https://www.jianshu.com/p/0038823122dc),据说button的image要代码设置。
-  
-  2、popView的封装添加 offsetSep（todo github上传）
-
-增强 辅助 用户体验
-
-自动化测试/动画绘制
-
-视频/地图类等 App开发
-
-[2] 后端开发-PHP方向
-
-技术能力：
-
-框架laravel Yii thinkphp
+开发框架：框架laravel Yii thinkphp
 
 [laravel](https://www.golaravel.com/)
 -----------
@@ -119,19 +105,20 @@ scorm标准 Linux环境开发
 
 相关语言：golang（go）python
 
-[3] 后端开发-Java方向
+### 后端开发-Java方向
 
 项目经理 架构师 CTO 
 
-[4] 大数据
+### 大数据
 
 数据方向 数据分析 更好的规划
 
-[5] [leetcode](https://leetcode-cn.com/problemset/all/)
-
-数据结构和算法
----
+### 数据结构和算法
 
 复杂度分析
+
+### 其他 
+
+[leetcode](https://leetcode-cn.com/problemset/all/)
 
 
