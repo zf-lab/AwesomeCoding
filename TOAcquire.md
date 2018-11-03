@@ -16,7 +16,7 @@ The Compass
 
   Laravel 简洁优雅的PHP开发框架
   
-  [学习路径](https://docs.golaravel.com/docs/4.2/introduction/#where-to-start)：[安装与配置](#安装配置)->[路由](#路由)->[请求与输入](#请求与输入)->视图与响应->控制器->配置数据库->查询构造器->Eloquent ORM->身份验证
+  [学习路径](https://docs.golaravel.com/docs/4.2/introduction/#where-to-start)：[安装与配置](#安装配置)->[路由](#路由)->[请求与输入](#请求与输入)->[视图与响应](#视图与响应)->[控制器](#控制器)->[配置数据库](#配置数据库)->[查询构造器](#查询构造器)->[Eloquent ORM](#Eloquent ORM)->[身份验证](#身份验证)
   
   #### [安装配置](https://docs.golaravel.com/docs/4.2/quick/#installation)
   
@@ -62,7 +62,21 @@ The Compass
   
   ##### [请求与输入](https://docs.golaravel.com/docs/4.2/requests/)
   
+  基本输入数据 Input::get()等；Cookies 队列等等；form前输入回填；上传文件；请求信息；
   
+  #### 视图与响应
+  
+  Blade
+  
+  #### 控制器
+  
+  #### 配置数据库
+  
+  #### 查询构造器
+  
+  #### Eloquent ORM
+  
+  #### 身份验证
   
   拓展阅读：[Nginx学习文档](http://www.nginx.cn/doc/)  Apache .htaccess
   
