@@ -64,11 +64,15 @@ The Compass
   
   基本输入数据 Input::get()等；Cookies 队列等等；form前输入回填；上传文件；请求信息；
   
-  #### 视图与响应
+  #### [视图与响应](https://docs.golaravel.com/docs/4.2/responses/#basic-responses)
   
-  Blade
+  模版系统：[Blade](https://docs.golaravel.com/docs/4.2/templates/)
   
-  #### 控制器
+  基本响应-重定向-视图-视图组件-特殊响应-响应宏
+  
+  #### [控制器](https://docs.golaravel.com/docs/4.2/controllers/#basic-controllers)
+  
+  something over here!
   
   #### 配置数据库
   
