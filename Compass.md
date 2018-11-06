@@ -16,7 +16,7 @@ The Compass
 
   Laravel 简洁优雅的PHP开发框架
   
-  [学习路径](https://docs.golaravel.com/docs/4.2/introduction/#where-to-start)：[安装与配置](#安装配置)->[路由](#路由)->[请求与输入](#请求与输入)->[视图与响应](#视图与响应)->[控制器](#控制器)->[配置数据库](#配置数据库)->[查询构造器](#查询构造器)->[Eloquent ORM](#EloquentORM)->[身份验证](#身份验证)
+  [学习路径](https://docs.golaravel.com/docs/4.2/introduction/#where-to-start)：[安装与配置](#安装配置)->[路由](#路由)->[请求与输入](#请求与输入)->[视图与响应](#视图与响应)->[控制器](#控制器)->[配置数据库](#配置数据库)->[查询构造器](#查询构造器)->[Eloquent ORM](#Eloquent_ORM)->[身份验证](#身份验证)
   
   #### [安装配置](https://docs.golaravel.com/docs/4.2/quick/#installation)
   
@@ -72,13 +72,15 @@ The Compass
   
   #### [控制器](https://docs.golaravel.com/docs/4.2/controllers/#basic-controllers)
   
-  something over here!
+  基本控制器(文件系统/composer.json)-控制器过滤器(请求生命周期阶段处理)-隐式控制器(定义路由)-资源控制器（RESTful风格/Route::resource）-处理缺失的方法
   
-  #### 配置数据库
+  #### [配置数据库](https://docs.golaravel.com/docs/4.2/database/)
+  
+  [数据库基础使用](https://docs.golaravel.com/docs/4.2/database/)（配置/事务/读写链接/日志/多数据库）-[查询构造器](https://docs.golaravel.com/docs/4.2/queries)（PDO/查询构造器）-[Eloquent ORM](#Eloquent_ORM)(这个东东好多呀/需要单独看基本/高级使用/数据库_模型交互)-[结构生成器]()-[数据迁移和数据填充]()-[Redis]()
   
   #### 查询构造器
   
-  #### EloquentORM
+  #### [Eloquent_ORM](https://docs.golaravel.com/docs/4.2/eloquent/#query-scopes)
   
   #### 身份验证
   
