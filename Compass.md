@@ -76,7 +76,17 @@ The Compass
   
   #### [配置数据库](https://docs.golaravel.com/docs/4.2/database/)
   
-  [数据库基础使用](https://docs.golaravel.com/docs/4.2/database/)（配置/事务/读写链接/日志/多数据库）-[查询构造器](https://docs.golaravel.com/docs/4.2/queries)（PDO/查询构造器）-[Eloquent ORM](#Eloquent_ORM)(这个东东好多呀/需要单独看基本/高级使用/数据库_模型交互)-[结构生成器]()-[数据迁移和数据填充]()-[Redis]()
+  > -[数据库基础使用](https://docs.golaravel.com/docs/4.2/database/)（配置/事务/读写链接/日志/多数据库）
+  
+  > -[查询构造器](https://docs.golaravel.com/docs/4.2/queries)（PDO/查询构造器）
+  
+  > -[Eloquent ORM](#Eloquent_ORM)(这个东东好多呀/需要单独看基本/高级使用/数据库_模型交互)
+  
+  > -[结构生成器](https://docs.golaravel.com/docs/4.2/schema/#introduction)（不考虑数据库操作数据库表）
+  
+  > -[数据迁移和数据填充](https://docs.golaravel.com/docs/4.2/migrations/)(配合结构生成器管理应用程序结构/数据填充生成测试数据)
+  
+  > -[Redis](https://docs.golaravel.com/docs/4.2/redis/)（）
   
   #### 查询构造器
   
