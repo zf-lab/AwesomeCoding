@@ -4,6 +4,8 @@ The Compass
 
 > 概念学习  最小化学习路径
 
+* How to use: Commond+F 搜索关键词->基本习得概述->进入链接深入学习
+
 ## 移动开发-iOS方向
 
   Something over here！[iOS](https://github.com/FLYKingdom/MyCode/blob/master/%E7%A7%BB%E5%8A%A8%E7%AB%AF/iOS.md)
@@ -16,7 +18,15 @@ The Compass
 
   Laravel 简洁优雅的PHP开发框架
   
-  [学习路径](https://docs.golaravel.com/docs/4.2/introduction/#where-to-start)：[安装与配置](#安装配置)->[路由](#路由)->[请求与输入](#请求与输入)->[视图与响应](#视图与响应)->[控制器](#控制器)->[配置数据库](#配置数据库)->[查询构造器](#查询构造器)->[Eloquent ORM](#Eloquent_ORM)->[身份验证](#身份验证)
+  [学习路径](https://docs.golaravel.com/docs/4.2/introduction/#where-to-start)：
+  
+  [安装与配置](#安装配置)->[路由](#路由)->[请求与输入](#请求与输入)->[视图与响应](#视图与响应)
+  
+  ->[控制器](#控制器)->[配置数据库](#配置数据库)->[查询构造器](#查询构造器)
+  
+  ->[Eloquent ORM](#Eloquent_ORM)->[身份验证](#身份验证)
+  
+  ->[Cache](#Cache)->[Session](#Session)->[错误日志](#错误日志)->[单元测试](#单元测试)
   
   #### [安装配置](https://docs.golaravel.com/docs/4.2/quick/#installation)
   
