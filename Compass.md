@@ -86,20 +86,87 @@ The Compass
   
   > -[数据迁移和数据填充](https://docs.golaravel.com/docs/4.2/migrations/)(配合结构生成器管理应用程序结构/数据填充生成测试数据)
   
-  > -[Redis](https://docs.golaravel.com/docs/4.2/redis/)（）
+  > -[Redis配置](https://docs.golaravel.com/docs/4.2/redis/)（框架配置、使用和流水线）
   
   #### 查询构造器
   
+  something over here！
+  
   #### [Eloquent_ORM](https://docs.golaravel.com/docs/4.2/eloquent/#query-scopes)
   
-  #### 身份验证
+  something over here！
   
+  #### [身份验证](https://docs.golaravel.com/docs/4.2/security/)
+  
+  > 设定/存储密码 设置auth.php Hash类加密算法
+  
+  > 用户认证 登录认证以及认证信息、状态处理
+  
+  > 保护路由 设置认证用户可访问路径链接
+  
+  > CSRF保护 防止跨站攻击 表单验证
+  
+  > HTTP简易认证 可设置简易快速认证不需要登录页面/可设置无状态HTTP简易过滤无session或cookie
+  
+  > 忘记密码和重设密码（快速集成后台认证的功能）
+  
+  > 加密Crypt::encrypt decrypt（设置随机字符串key app.php）
+  
+  > 认证驱动 （默认database和eloquent、额外 [认证扩充文件](https://docs.golaravel.com/docs/4.2/extending/#authentication))
+  
+  说明：users表中的remember_token用于保留用户认证身份/用户sessionID认证后自动重新产生
+  
+  #### [Cache](https://docs.golaravel.com/docs/4.2/cache/)
+  
+  > 配置Cache.php
+  
+  > 缓存使用 Cache::put()...等等
+  
+  > 缓存标签 Cache::tags() /递增递减
+  
+  > 数据库缓存 使用 Schema 声明
+  
+  * [Memcached](#Memcached)
+  
+  * [Redis](#Redis)
+  
+  #### [Session](https://docs.golaravel.com/docs/4.2/session/)
+  
+  > 配置session.php （flash键值关键字避免使用）
+  
+  > Session使用 Session::put()
+  
+  > 快闪数据（Flash Data）
+  
+  > [Session 驱动](https://docs.golaravel.com/docs/4.2/session/#session-drivers)
+  
+  #### [错误与日志](https://docs.golaravel.com/docs/4.2/errors/)
+  
+  > 配置文件 (start/global.php文件/[Monolog](https://github.com/seldaek/monolog)日志库 日志等级)
+  
+  > 错误处理 基本的处理程序和设定处理程序监听不同类型的处理
+  
+  > HTTP 异常处理 not found 404 未授权401 代码异常500
+  
+  > 日志 (RFC 5424log Protocol级别:debug, info, notice, warning, error, critical, and alert)(注册日志监听)
+ 
+  #### 单元测试
+
+
   拓展阅读：[Nginx学习文档](http://www.nginx.cn/doc/)  Apache .htaccess
   
   拓展关键字：[控制反转](https://baike.baidu.com/item/%E6%8E%A7%E5%88%B6%E5%8F%8D%E8%BD%AC/1158025?fr=aladdin#3) XML Java 反射机制 负载均衡 虚拟机
 
-数据库 memberCache/redis 缓存技术
+### 缓存
 
+  #### [Memcached](http://www.runoob.com/memcached/memcached-tutorial.html)
+  
+  
+  
+  #### [Redis](http://www.runoob.com/redis/redis-tutorial.html)
+  
+  
+  
 环境搭建与部署 高负载网站
 
 PHP架构 静态化设计 OOP编程思想
@@ -108,27 +175,15 @@ NoSQL相关技术 索引/查询/存储 优化
 
 [RPC](https://github.com/FLYKingdom/MyCode/blob/master/%E6%9E%B6%E6%9E%84%E5%AD%A6%E4%B9%A0/RPC%E6%9E%B6%E6%9E%84%E5%AD%A6%E4%B9%A0%E8%B0%83%E7%A0%94.md)
 
-SSH Linux命令行
-
 服务器 选择apache Nginx Tomcat部署 反向代理和负载均衡 静态html
 
-scorm标准 Linux环境开发
+scorm标准 Linux环境开发 / SSH Linux命令行
 
 高并发 多线程
 
-数据分析/数据挖掘
+数据分析/数据挖掘/设计模式/单元测试
 
-设计模式
-
-单元测试
-
-小程序
-
-微服务
-
-音视频
-
-动画游戏
+小程序/微服务/音视频/动画游戏
 
 相关语言：golang（go）python
 
