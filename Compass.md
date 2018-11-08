@@ -4,21 +4,21 @@ The Compass
 
 > 概念学习  最小化学习路径
 
-* How to use: Commond+F 搜索关键词->基本习得概述->进入链接深入学习
+> How to use: Commond+F 搜索关键词->基本习得概述->进入链接深入学习
 
 ## 移动开发-iOS方向
 
-  Something over here！[iOS](https://github.com/FLYKingdom/MyCode/blob/master/%E7%A7%BB%E5%8A%A8%E7%AB%AF/iOS.md)
+  Something over there！[iOS](https://github.com/FLYKingdom/MyCode/blob/master/%E7%A7%BB%E5%8A%A8%E7%AB%AF/iOS.md)
 
 ## 后端开发-PHP方向
 
-开发框架：框架laravel Yii thinkphp
+> 开发框架：框架laravel Yii thinkphp
 
 ### [laravel](https://www.golaravel.com/)
 
-  Laravel 简洁优雅的PHP开发框架
+  > Laravel 简洁优雅的PHP开发框架
   
-  [学习路径](https://docs.golaravel.com/docs/4.2/introduction/#where-to-start)：
+  > [学习路径](https://docs.golaravel.com/docs/4.2/introduction/#where-to-start)：
   
   [安装与配置](#安装配置)->[路由](#路由)->[请求与输入](#请求与输入)->[视图与响应](#视图与响应)
   
@@ -72,17 +72,17 @@ The Compass
   
   ##### [请求与输入](https://docs.golaravel.com/docs/4.2/requests/)
   
-  基本输入数据 Input::get()等；Cookies 队列等等；form前输入回填；上传文件；请求信息；
+  > 基本输入数据 Input::get()等；Cookies 队列等等；form前输入回填；上传文件；请求信息；
   
   #### [视图与响应](https://docs.golaravel.com/docs/4.2/responses/#basic-responses)
   
-  模版系统：[Blade](https://docs.golaravel.com/docs/4.2/templates/)
+  > 模版系统：[Blade](https://docs.golaravel.com/docs/4.2/templates/)
   
-  基本响应-重定向-视图-视图组件-特殊响应-响应宏
+  > 基本响应-重定向-视图-视图组件-特殊响应-响应宏
   
   #### [控制器](https://docs.golaravel.com/docs/4.2/controllers/#basic-controllers)
   
-  基本控制器(文件系统/composer.json)-控制器过滤器(请求生命周期阶段处理)-隐式控制器(定义路由)-资源控制器（RESTful风格/Route::resource）-处理缺失的方法
+  > 基本控制器(文件系统/composer.json)-控制器过滤器(请求生命周期阶段处理)-隐式控制器(定义路由)-资源控制器（RESTful风格/Route::resource）-处理缺失的方法
   
   #### [配置数据库](https://docs.golaravel.com/docs/4.2/database/)
   
