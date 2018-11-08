@@ -6,13 +6,13 @@ The Compass
 
 > How to use: Commond+F 搜索关键词->基本习得概述->进入链接深入学习
 
+> [Now to learn](#单元测试)
+
 ## 移动开发-iOS方向
 
   Something over there！[iOS](https://github.com/FLYKingdom/MyCode/blob/master/%E7%A7%BB%E5%8A%A8%E7%AB%AF/iOS.md)
 
 ## 后端开发-PHP方向
-
-> [Now to learn](#单元测试)
 
 > 开发框架：框架laravel Yii thinkphp
 
