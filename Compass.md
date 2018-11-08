@@ -14,11 +14,9 @@ The Compass
 
 > 开发框架：框架laravel Yii thinkphp
 
-### [laravel](https://www.golaravel.com/)
-
-  > Laravel 简洁优雅的PHP开发框架
+### [laravel](https://www.golaravel.com/) (Laravel 简洁优雅的PHP开发框架)
   
-  > [学习路径](https://docs.golaravel.com/docs/4.2/introduction/#where-to-start)：
+  [学习路径](https://docs.golaravel.com/docs/4.2/introduction/#where-to-start)：
   
   [安装与配置](#安装配置)->[路由](#路由)->[请求与输入](#请求与输入)->[视图与响应](#视图与响应)
   
@@ -30,19 +28,19 @@ The Compass
   
   #### [安装配置](https://docs.golaravel.com/docs/4.2/quick/#installation)
   
-  安装4.2:
+  > 安装4.2:
   
     composer create-project laravel/laravel=4.2 laravelTest --prefer-dist
   
-  配置：app/conf app.php key（32位）debug（true便于调试 线上配置为false）
+  > 配置：app/conf app.php key（32位）debug（true便于调试 线上配置为false）
         
-  nginx.conf  配置MAMP_VirtualHost_iteration_begin_MAMP 在location/下添加 try_files $uri $uri/ /index.php?$query_string ; 
+  > nginx.conf  配置MAMP_VirtualHost_iteration_begin_MAMP 在location/下添加 try_files $uri $uri/ /index.php?$query_string ; 
   
-  服务器指向路径为/public(内含index.php)
+  > 服务器指向路径为/public(内含index.php)
   
   #### [路由](https://docs.golaravel.com/docs/4.2/routing/#route-filters)
   
-  基本路由 路由参数 路由过滤器 命名路由 路由组 子域名路由 路由前缀 路由与模型绑定 抛出404错误 控制器路由
+  > 基本路由 路由参数 路由过滤器 命名路由 路由组 子域名路由 路由前缀 路由与模型绑定 抛出404错误 控制器路由
   
   #### [请求与输入](https://docs.golaravel.com/docs/4.2/requests/)
   
