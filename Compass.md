@@ -6,7 +6,7 @@ The Compass
 
 > How to use: Commond+F 搜索关键词->基本习得概述->进入链接深入学习
 
-> [Now to learn](#单元测试)
+> [Now to learn](#Favades)
 
 ## 移动开发-iOS方向
 
@@ -106,7 +106,7 @@ The Compass
   
   something over here！
   
-  #### [身份验证](https://docs.golaravel.com/docs/4.2/security/)
+  #### [安全](https://docs.golaravel.com/docs/4.2/security/)
   
   > 设定/存储密码 设置auth.php Hash类加密算法
   
@@ -160,12 +160,69 @@ The Compass
   
   > 日志 (RFC 5424log Protocol级别:debug, info, notice, warning, error, critical, and alert)(注册日志监听)
  
-  #### 单元测试
-
-
+  #### [单元测试](https://docs.golaravel.com/docs/4.2/testing/)
+  
+  > Laravel单元测试 （PHPUnit、Symfony HttpKernel、DomCrawler、BrowserKit组件可模拟网页浏览器/app/tests文件）
+  
+  > 定义与执行 创建测试用例
+  
+  > 测试环境 默认不操作session cache需要设置新的测试环境并初始化数组
+  
+  > 测试中调用路由call callSecure获取view- original、 获取响应字符串getContent
+  
+  > DOM Crawller 通过路由获取实例 检查内容isOk filter方法
+  
+  > 模拟 Facades（设计模式）？？？
+  
+  > 框架Assertions 多个Assert组合assertResponseOk assertResponseStatus等
+  
+  > 辅助方法 快捷使用方法be seed等
+  
+  > 重置额外绑定 refreshApplication
+  
+  #### [SSH](https://docs.golaravel.com/docs/4.2/ssh/)
+  
+  ##### [SSH基础学习](基于应用层的安全协议，用于验证登录 适用UNIX大部分平台)
+  
+  > 配置文件（config/remote.php文件配置SSH key或密码）
+  
+  > 基本用法 SSH::run方法 在服务器执行git命令、run闭包里echo捕捉输出
+  
+  > 任务 define一组命令到任务 task执行
+  
+  > SFTP下载/SFTP上传 下载文件get/getString、put/putString
+  
+  > 编辑远程日志 tail追加日志内容 使用artisan命令
+  
+  > Envoy 任务执行 简介轻量的语法执行服务器操作 [Blade](https://docs.golaravel.com/docs/4.2/templates/#blade-templating)风格语法
+  
+  ### [模版](https://docs.golaravel.com/docs/4.2/templates/#blade-templating)
+  
+  > Blade模版 定义布局和使用
+  
+  > 控制结构 @if @endif标签 循环标签
+  
+  > 扩展Blade 定义自定义控制结构
+  
+  ### [Facades](https://docs.golaravel.com/docs/4.2/facades/)
+  
+  ### [框架拓展](https://docs.golaravel.com/docs/4.2/extending/)
+  
+  ### [事件](https://docs.golaravel.com/docs/4.2/events/)
+  
+  ### [队列](https://docs.golaravel.com/docs/4.2/queues/)
+  
+  ### 其他
+  
+  > [辅助方法](https://docs.golaravel.com/docs/4.2/helpers/)（laravel封装的方法） [计费](https://docs.golaravel.com/docs/4.2/billing/) [表单与HTML](https://docs.golaravel.com/docs/4.2/html/) [本地化](https://docs.golaravel.com/docs/4.2/localization/) [邮件-SwiftMailer](https://docs.golaravel.com/docs/4.2/mail/) [拓展包](https://docs.golaravel.com/docs/4.2/packages/)
+  
   拓展阅读：[Nginx学习文档](http://www.nginx.cn/doc/)  Apache .htaccess
   
-  拓展关键字：[控制反转](https://baike.baidu.com/item/%E6%8E%A7%E5%88%B6%E5%8F%8D%E8%BD%AC/1158025?fr=aladdin#3) XML Java 反射机制 负载均衡 虚拟机
+  拓展关键字：[控制反转](https://baike.baidu.com/item/%E6%8E%A7%E5%88%B6%E5%8F%8D%E8%BD%AC/1158025?fr=aladdin#3) XML Java 反射机制 负载均衡 虚拟机 PHP包发布管理工具([Packagist](http://packagist.org/)、[Composer](http://getcomposer.org/))
+  
+### [单元测试](http://www.phpunit.cn/manual/current/zh_cn/installation.html)
+
+
 
 ### 缓存
 
