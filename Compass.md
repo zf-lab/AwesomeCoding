@@ -194,7 +194,7 @@ The Compass
   
   > 编辑远程日志 tail追加日志内容 使用artisan命令
   
-  > Envoy 任务执行 简介轻量的语法执行服务器操作 [Blade](https://docs.golaravel.com/docs/4.2/templates/#blade-templating)风格语法
+  > [Envoy](https://docs.golaravel.com/docs/4.2/ssh/#envoy-task-runner) 任务执行 简介轻量的语法执行服务器操作 [Blade](https://docs.golaravel.com/docs/4.2/templates/#blade-templating)风格语法
   
   ### [模版](https://docs.golaravel.com/docs/4.2/templates/#blade-templating)
   
