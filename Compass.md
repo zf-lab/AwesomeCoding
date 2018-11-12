@@ -206,7 +206,25 @@ The Compass
   
   ### [Facades](https://docs.golaravel.com/docs/4.2/facades/)
   
+  > Facades设置模式 静态接口访问注册到loc容器中的类
+  
+  > 定义facade类 需要实现getFacadeAccesor方法 
+  
+  > 使用 Cache::get('key')
+  
+  > 自定义facade （～loc绑定～创建facade类～别名配置）
+  
   ### [框架拓展](https://docs.golaravel.com/docs/4.2/extending/)
+  
+  > 扩展方法 管理者loc容器绑定和工厂模式Manager
+  
+  > Cache Manger拓展建立自定义缓存驱动(用服务提供者来组织框架扩展是个组织您的代码的好方法)
+  
+  > Session 需要在start之前扩展 使用服务提供者register方法中 并设置app的providers数组
+  
+  > 基于loc的扩展 待做 app.php文件中 providers服务提供者清单学习
+  
+  > 认证 请求 扩展 请求和Session扩展的不同
   
   ### [事件](https://docs.golaravel.com/docs/4.2/events/)
   
@@ -221,7 +239,6 @@ The Compass
   拓展关键字：[控制反转](https://baike.baidu.com/item/%E6%8E%A7%E5%88%B6%E5%8F%8D%E8%BD%AC/1158025?fr=aladdin#3) XML Java 反射机制 负载均衡 虚拟机 PHP包发布管理工具([Packagist](http://packagist.org/)、[Composer](http://getcomposer.org/))
   
 ### [单元测试](http://www.phpunit.cn/manual/current/zh_cn/installation.html)
-
 
 
 ### 缓存
