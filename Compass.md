@@ -228,7 +228,23 @@ The Compass
   
   ### [事件](https://docs.golaravel.com/docs/4.2/events/)
   
+  > 基本使用 订阅Event::listen 触发Event::fire
+  
+  > 通配符监听 foo.* firing方法
+  
+  > 类作为监听者 handle方法 ‘LoginHandler@onLogin’和‘LoginHandler’
+  
+  > 事件队列 Event::queue Event::flush('foo')
+  
+  > 事件订阅者 可以订阅多个事件 subscribe方法
+  
   ### [队列](https://docs.golaravel.com/docs/4.2/queues/)
+  
+  > 设置 config/queue.php配置不同的队列服务链接/队列服务依赖
+  
+  > 队列闭包 （要让一个组件变量可以在队列闭包中可以使用我们会通过 use 命令，试着传送主键及重复使用的相关模组在您的队列工作中，这可以避免其他的序列化行为）
+  
+  > 队列监听
   
   ### 其他
   
