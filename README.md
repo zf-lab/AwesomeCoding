@@ -1,6 +1,10 @@
 # MyCode
 记录一下学习 日志
 
+### 计算机技术概览
+
+Some important things over [hear!!!](http://matt.might.net/articles/what-cs-majors-should-know/)
+
 ### python学习 
 
 [PycharmProjects](https://github.com/FLYKingdom/MyCode/tree/master/PycharmProjects)
@@ -21,4 +25,8 @@
 ### 算法练习 
 
 [leetcode](https://leetcode-cn.com/problemset/all/)
+
+### CodeReview
+
+Have a look about code review [here!](https://thenewstack.io/linkedin-code-review/)
 
