@@ -6,7 +6,7 @@ The Compass
 
 > How to use: Commond+F 搜索关键词->基本习得概述->进入链接深入学习
 
-> [Now to learn](#Favades)
+> [Now to learn](http://matt.might.net/articles/what-cs-majors-should-know/) translate into Chinese
 
 ## 移动开发-iOS方向
 
@@ -29,9 +29,15 @@ The Compass
   
   
   
-  #### [Redis](http://www.runoob.com/redis/redis-tutorial.html)
+  #### [Redis](https://redis.io/documentation) [中文](http://www.redis.cn/documentation.html)
+  
+  > more popular and better than Memcached [here！](https://stackoverflow.com/questions/10558465/memcached-vs-redis)
+  
+  #### Redis [Tutorial](http://try.redis.io/) 
   
   
+  
+  #### 拓展阅读：License
   
 环境搭建与部署 高负载网站
 
