@@ -27,14 +27,13 @@ The Compass
 
   #### [Memcached](http://www.runoob.com/memcached/memcached-tutorial.html)
   
-  
-  
   #### [Redis](https://redis.io/documentation) [中文](http://www.redis.cn/documentation.html)
   
   > more popular and better than Memcached [here！](https://stackoverflow.com/questions/10558465/memcached-vs-redis)
   
   #### Redis [Tutorial](http://try.redis.io/) 
   
+  #### [Knowledge Tree](http://www.redis.cn/map.html)
   
   
   #### 拓展阅读：License
