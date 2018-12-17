@@ -19,6 +19,6 @@ Redis is what is called a key-value store, often referred to as a NoSQL database
 
 #### 3.3 sorted set A sorted set is similar to a regular set, but now each value has an associated score. this score is used to sort the elements in the set
 
-#### 3.4 hashes 
+#### 3.4 hashes Hashes are maps between string fields and string values, so they are the perfect data type to represent objects
 
 
