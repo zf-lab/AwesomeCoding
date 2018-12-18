@@ -29,4 +29,12 @@ Redis is what is called a key-value store, often referred to as a NoSQL database
 
 > Hashes are maps between string fields and string values, so they are the perfect data type to represent objects
 
+#### 3.5 and so on
+
+> Others over [heare](http://www.redis.cn/)
+
+### 4. deploy
+
+
+
 
