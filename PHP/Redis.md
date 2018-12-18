@@ -13,12 +13,20 @@ Redis is what is called a key-value store, often referred to as a NoSQL database
 
 ### 3.数据结构
 
-#### 3.1 list A list is a series of ordered values
+#### 3.1 list
 
-#### 3.2 set A set except it does not have a specific order and each element may only appear once
+> A list is a series of ordered values
 
-#### 3.3 sorted set A sorted set is similar to a regular set, but now each value has an associated score. this score is used to sort the elements in the set
+#### 3.2 set
 
-#### 3.4 hashes Hashes are maps between string fields and string values, so they are the perfect data type to represent objects
+> A set except it does not have a specific order and each element may only appear once
+
+#### 3.3 sorted set 
+
+> A sorted set is similar to a regular set, but now each value has an associated score. this score is used to sort the elements in the set
+
+#### 3.4 hashes 
+
+> Hashes are maps between string fields and string values, so they are the perfect data type to represent objects
 
 
