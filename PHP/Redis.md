@@ -31,7 +31,7 @@ Redis is what is called a key-value store, often referred to as a NoSQL database
 
 #### 3.5 and so on
 
-> Others over [heare](http://www.redis.cn/)
+> Others over [hear](http://www.redis.cn/)
 
 ### 4. deploy
 
