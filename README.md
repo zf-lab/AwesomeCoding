@@ -1,4 +1,4 @@
-# MyCode
+# AwesomeCode
 记录一下学习 日志
 
 ### 计算机技术概览
@@ -17,6 +17,12 @@ Some important things over [hear!!!](http://matt.might.net/articles/what-cs-majo
 ### PHP学习
 
 [PHP](https://github.com/FLYKingdom/MyCode/tree/master/PHP)
+
+### Unix Command
+
+  [Unix Tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/)
+  
+  > [What is Unix?](http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html)
 
 ### 移动端总结
 
