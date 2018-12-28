@@ -23,6 +23,12 @@ Some important things over [hear!!!](http://matt.might.net/articles/what-cs-majo
   [Unix Tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/)
   
   > [What is Unix?](http://www.ee.surrey.ac.uk/Teaching/Unix/unixintro.html)
+  
+  > [Unix tutorial One](http://www.ee.surrey.ac.uk/Teaching/Unix/unix1.html) command: ls + mkdir + cd + pwd
+  
+  > [Unix tutorial two](http://www.ee.surrey.ac.uk/Teaching/Unix/unix2.html) command: cp+mv+rm+rmdir+cat+less(/search)+head+tail+grep+wc
+  
+  > [Unix tutorial three](http://www.ee.surrey.ac.uk/Teaching/Unix/unix3.html) command: 
 
 ### 移动端总结
 
