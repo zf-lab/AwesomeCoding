@@ -5,7 +5,7 @@
 
 Some important things over [hear!!!](http://matt.might.net/articles/what-cs-majors-should-know/)
 
-### python学习 
+### Python学习 
 
 [PycharmProjects](https://github.com/FLYKingdom/MyCode/tree/master/PycharmProjects)
 
@@ -32,11 +32,16 @@ Some important things over [hear!!!](http://matt.might.net/articles/what-cs-majo
 
 ### 移动端总结
 
-[移动端](https://github.com/FLYKingdom/MyCode/tree/master/%E7%A7%BB%E5%8A%A8%E7%AB%AF)
+[iOS](https://github.com/zf-lab/AwesomeCoding/blob/master/%E7%A7%BB%E5%8A%A8%E7%AB%AF/iOS.md)
 
 ### 算法练习 
 
 [leetcode](https://leetcode-cn.com/problemset/all/)
+
+### 技术博客
+
+[掘金](https://juejin.cn/user/3430905268937901)
+[简书](https://www.jianshu.com/u/2c9ecc6ade14)
 
 ### CodeReview
 
