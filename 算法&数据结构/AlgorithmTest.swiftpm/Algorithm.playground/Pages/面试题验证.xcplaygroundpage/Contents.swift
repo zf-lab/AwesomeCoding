@@ -32,3 +32,26 @@ DispatchQueue.main.async {
 print("789")
 
 print("end")
+
+
+// 转换
+class Person: NSObject {
+
+}
+
+extension NSObject {
+    func run() {
+        print("run ")
+    }
+    
+    class func fly() {
+        print("FLy")
+    }
+}
+
+let person = Person()
+person.run()
+Person.fly()
+
+let event = UIEvent()
+let reponder = UIResponder()

@@ -3,5 +3,6 @@
     <pages>
         <page name='面试题验证'/>
         <page name='算法练习'/>
+        <page name='图'/>
     </pages>
 </playground>
