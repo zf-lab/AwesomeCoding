@@ -282,4 +282,123 @@ if index == -1 {
 
 // Hash查找
 
+//时间复杂度:
+//
+// 平均时间复杂度 O(1)
+// 最坏时间复杂度 O(n)
+// 空间复杂度: O(n)
+// 注意hash函数冲突的问题
 
+struct HashTable<Key: Hashable, Value> {
+
+  private var array = Array<Node?>(repeating: nil, count: 10)
+
+  struct Node {
+    let key: Key
+    let value: Value
+  }
+
+  mutating func insert(_ key: Key, _ value: Value) {
+    let index = key.hashValue % array.count
+    array[index] = Node(key: key, value: value)
+  }
+
+  mutating func get(_ key: Key) -> Value? {
+    let index = key.hashValue % array.count
+    return array[index]?.value
+  }
+}
+
+// 模式匹配算法
+
+// KMP算法
+func charAt(_ s: String, _ index: Int) -> Character {
+  let i = s.index(s.startIndex, offsetBy: index)
+  return s[i]
+}
+
+func kmpSearch(_ haystack: String, _ needle: String) -> Int? {
+    
+    let n = haystack.count
+    let m = needle.count
+    
+    // 1. 构建needle的部分匹配表
+    var partialMatch = [Int](repeating: 0, count: m)
+    var prefixEnd = 0
+    var suffixEnd = 1
+    
+    while suffixEnd < m {
+        if charAt(needle, prefixEnd) == charAt(needle, suffixEnd) {
+            partialMatch[suffixEnd] = prefixEnd + 1
+            suffixEnd += 1
+            prefixEnd += 1
+        } else if prefixEnd == 0 {
+            suffixEnd += 1
+        } else {
+            prefixEnd = partialMatch[prefixEnd - 1]
+        }
+    }
+    
+    // 2. 对haystack字符串匹配
+    var textIndex = 0
+    var patternIndex = 0
+    while textIndex < n && patternIndex < m {
+        if charAt(haystack, textIndex) == charAt(needle, patternIndex) {
+            textIndex += 1
+            patternIndex += 1
+        } else if patternIndex == 0 {
+            textIndex += 1
+        } else {
+            patternIndex = partialMatch[patternIndex - 1]
+        }
+    }
+    
+    return patternIndex == m ? textIndex - m : nil
+}
+
+let haystack = "BBC ABCDAB ABCDABCDABDE"
+let needle = "ABCDABD"
+let match = kmpSearch(haystack, needle) // 15
+print("match index =\(match ?? 0)")
+
+// []配对识别,并将中间的子字符串识别输出 (使用栈结构)
+
+func substring(from str: String, start: Int, end: Int) -> String {
+
+  let startIndex = str.index(str.startIndex, offsetBy: start)
+  let endIndex = str.index(str.startIndex, offsetBy: end)
+
+  return String(str[startIndex...endIndex])
+}
+
+func parseNestedBrackets(from string: String) {
+    
+    var stack = [Int]()
+    
+    for (index, char) in string.enumerated() {
+        
+        if char == "[" {
+            stack.append(index)
+        } else if char == "]" {
+            if let leftIndex = stack.popLast() {
+                let substring = substring(from: string, start: leftIndex, end: index)
+                print(substring)
+            } else {
+                print("右括号]没有匹配的左括号[")
+                break
+            }
+        }
+    }
+    
+    if !stack.isEmpty {
+        print("左括号[没有匹配的右括号]")
+    }
+}
+
+let test = "Hello [World [Swift]] is [cool]"
+
+parseNestedBrackets(from: test)
+
+// World [Swift]
+// Swift
+// cool

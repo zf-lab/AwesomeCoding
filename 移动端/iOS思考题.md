@@ -1,3 +1,13 @@
+## 思考题汇总
+
+[思考题汇总](https://ui8pxadne3.feishu.cn/share/base/dashboard/shrcnxvJuyPhzuDU0dGdeqjIMxY)
+
+## 原理&机制
+
+
+
+## 使用经验
+
 1、简述runloop、autorelease和线程，以及它们之间的关系
 
 参考链接：https://www.jianshu.com/p/8b011b844231
@@ -20,3 +30,4 @@
 
 
 参考链接：https://www.jianshu.com/p/79727c53a786 https://www.jianshu.com/p/3b7f3f596bcb
+[iOS技术资料汇总(In 知乎)](https://zhuanlan.zhihu.com/p/467803126)
