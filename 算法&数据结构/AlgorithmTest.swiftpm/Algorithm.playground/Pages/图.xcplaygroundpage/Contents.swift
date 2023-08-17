@@ -131,3 +131,36 @@ struct MetrixGraph {
 }
 
 
+extension TableGraph {
+    
+    // 广度优先
+    
+    func bfs(start: Int) {
+      
+      var visited = Set<Int>()
+      var queue = Queue<Int>()
+      
+      visited.insert(start)
+      queue.enqueue(start)
+      
+      while !queue.isEmpty {
+          
+        let node = queue.dequeue()!
+        
+        print(node)
+        
+        if let neighbors = adjList[node] {
+          for neighbor in neighbors {
+            if !visited.contains(neighbor) {
+              visited.insert(neighbor)
+              queue.enqueue(neighbor)
+            }
+          }
+        }
+      }
+    }
+}
+
+
+let objc1 = Any()
+let objc2 = AnyObject()
