@@ -7,16 +7,16 @@ Some important things over [hear!!!](http://matt.might.net/articles/what-cs-majo
 
 ### Python学习 
 
-[PycharmProjects](https://github.com/FLYKingdom/MyCode/tree/master/PycharmProjects)
+[PycharmProjects](/PycharmProjects)
 
 ### 前端学习
 
-[Front End Development](https://github.com/FLYKingdom/MyCode/tree/master/Front%20End%20Development)
+[Front End Development](/Front%20End%20Development)
 [FreeCodeCamp](https://www.freecodecamp.cn/home)
 
 ### PHP学习
 
-[PHP](https://github.com/FLYKingdom/MyCode/tree/master/PHP)
+[PHP](/PHP)
 
 ### Unix Command
 
@@ -32,7 +32,7 @@ Some important things over [hear!!!](http://matt.might.net/articles/what-cs-majo
 
 ### 移动端总结
 
-[iOS](https://github.com/zf-lab/AwesomeCoding/blob/master/%E7%A7%BB%E5%8A%A8%E7%AB%AF/iOS.md)
+[iOS](/移动端/iOS知识图谱（个人版）.md)
 
 ### 算法练习 
 
