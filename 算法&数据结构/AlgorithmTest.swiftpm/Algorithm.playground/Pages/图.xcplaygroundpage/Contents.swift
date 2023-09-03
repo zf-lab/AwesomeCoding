@@ -161,6 +161,3 @@ extension TableGraph {
     }
 }
 
-
-let objc1 = Any()
-let objc2 = AnyObject()
