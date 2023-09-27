@@ -12,9 +12,10 @@ func test() {
     let block = {
         a += 10
     }
-    a += 5
-    block()
     
+    a += 5
+    print("a = \(a)")
+    block()
     print("a = \(a)")
 }
 
@@ -32,3 +33,20 @@ DispatchQueue.main.async {
 print("789")
 
 print("end")
+
+// 类型擦除 和反射机制
+let number: Any = 0
+
+struct Person {
+    var name: String
+    var age: Int
+}
+
+let john = Person(name: "John", age: 30)
+let danny: Any = john
+let mirror = Mirror(reflecting: danny)
+
+for (label, value) in mirror.children {
+    print("Property: \(label ?? "") = \(value)")
+}
+
